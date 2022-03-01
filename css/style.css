@@ -1,0 +1,449 @@
+body{
+        /* overflow: hidden;*/
+         height: 5000px;
+     }
+     /*start navbar*/
+     .navbar .navbar-light {
+         background-color: #fff !important;
+     }
+     .navbar .navbar-light .navbar-brand {
+         position: relative;
+         left: 10%;
+     }
+     .navbar .navbar-expand-lg .navbar-collapse {
+         position: relative;
+         left: 30%;
+     }
+     .navbar .navbar-light .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+         padding: 20px;
+       text-transform: uppercase;
+       color: rgba(0,0,0,.55);
+     }
+     .navbar .navbar-light .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+         color: #3a52bf;
+     }
+     .navbar .navbar-light .container-fluid .navbar-collapse
+      .navbar-nav .dropdown .dropdown-menu li .dropdown-item:hover {
+         color: #3a52bf !important;
+     }
+     .navbar .navbar-light .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link i {
+     color: #3a52bf;
+     }
+     .search {
+         width: 26%;
+         border: 1px solid #ccc;
+         box-shadow: -9px -13px 6px -10px #ccc;
+         padding: 15px;
+         position: absolute;
+         left: 70%;
+         display: none; 
+         z-index: 100;
+         background-color: #fff; 
+     }
+     .search .containt input {
+         padding: 10px;
+         background-color: #ccc;
+         outline: none;
+         border: 1px solid #ccc;
+     }
+     .search .containt button {
+         padding: 10px;
+         background-color: #3a52bf;
+         color: #fff;
+         outline: none;
+         border: 1px solid;
+     }
+     /*end navbar*/
+     /*start header*/
+     .header{
+         background-image: url("../images/water-ocean-waves-sea-high-resolution-pictures-wallpaper-preview.jpg");
+         /*width: 100%;*/
+         height: 550px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         text-align: center;
+     }
+     .header .containt{
+         padding: 150px;
+         color: #fff;
+         font-family: 'Raleway', sans-serif;
+         position: relative;
+     }
+     .header .containt .colorBoard{
+         width: 200px;
+         height: 50px;
+         position: absolute;
+         top: 10px;
+         left: 10px;
+         text-align: left !important;
+     }
+     .header .containt .colorBoard h3{
+         margin-left: 27px;
+     }
+     .header .containt .colorBoard ul{
+     list-style: none;
+     }
+     .header .containt .colorBoard ul li{
+         display: inline-block;
+         }
+     .header .containt .colorBoard ul .red{
+         width: 23%;
+         height: 45px;
+         background-color: #f00;
+         border-radius: 5px
+     }
+     .header .containt .colorBoard ul .green{
+         width: 23%;
+         height: 45px;
+         background-color: green;
+         border-radius: 5px
+     }
+     .header .containt .colorBoard ul .blue{
+         width: 23%;
+         height: 45px;
+         background-color: blue;
+         border-radius: 5px
+     }
+     .header .containt .colorBoard ul .defult{
+         width: 23%;
+         height: 45px;
+         background-color: #745cf9;
+         border-radius: 5px
+     }
+     .header .containt h1{
+         font-weight: bold;
+         font-size: 50px;
+         padding: 10px;
+     }
+     .header .containt p{
+         font-weight: bold;
+         font-size: 20px;
+         padding: 5px;
+     }
+     .header .containt .button1, .header .containt .button2{
+             padding: 15px;
+             width: 150px;
+             background-color: #745cf9;
+             color: #fff;
+             outline: none;
+             border: 1px solid #745cf9;
+             font-weight: bold;
+     }
+     .header .containt .button1:hover{
+         background-color: #5d47d7;
+         border: 1px solid #5d47d7;
+     }
+     .header .containt .button2 {
+         background-color: rgba(255, 0, 0, 0);
+         border: 2px solid;
+     }
+     .header .containt .button2:hover {
+         background-color: rgb(248 244 244);
+         color: #000;
+         border: 2px solid #fff;
+     }
+     /*end header*/
+     /*Start content*/
+     .content1 .container .row{
+         margin-top: 100px;
+         font-family: 'Raleway', sans-serif;
+     }
+     .content1 .container .row .left img{
+         width: 100%;
+     }
+     .content1 .container .row .right {
+         padding: 30px;
+     }
+     .content1 .container .row .right h2{
+         font-size: 20px;
+         line-height: 30px;
+         padding: 20px 0;
+         font-weight: bold;
+     }
+     .content1 .container .row .right button{
+         padding: 15px;
+         width: 200px;
+         background-color: #745cf9;
+         color: #fff;
+         outline: none;
+         border: 1px solid #745cf9;
+         font-weight: bold;
+         border-radius: 2px
+     }
+     .content1 .container .row .right button:hover {
+         background-color: #5d47d7;
+         border: 1px solid #5d47d7;
+     }
+     .content2{
+         background-color: #f5f5f5;
+     }
+     .content2 .container .row{
+         margin-top: 100px;
+         font-family: 'Raleway', sans-serif;
+     }
+     .content2 .container .row .left img{
+         width: 100%;
+     }
+     .content2 .container .row .right {
+         padding: 30px;
+     }
+     .content2 .container .row .right h2{
+         font-size: 20px;
+         line-height: 30px;
+         padding: 20px 0;
+         font-weight: bold;
+     }
+     .content2 .container .row .right button{
+         padding: 15px;
+         width: 200px;
+         background-color: #745cf9;
+         color: #fff;
+         outline: none;
+         border: 1px solid #745cf9;
+         font-weight: bold;
+         border-radius: 2px
+     }
+     .content2 .container .row .right button:hover {
+         background-color: #5d47d7;
+         border: 1px solid #5d47d7;
+     }
+     /*End content*/
+     /*start background*/
+     .background{
+         background-image: url("../images/istockphoto-1222094389-170667a.jpg");
+         height: 400px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         text-align: center;
+     }
+     .background .containt{
+         padding: 120px;
+         color: #fff;
+         font-family: 'Raleway', sans-serif;
+     }
+     .background .containt h2{
+         font-weight: bold;
+         font-size: 35px;
+     }
+     .background .containt p{
+         font-weight: bold;
+     }
+     .background .containt button{
+         padding: 15px;
+         width: 200px;
+         background-color: #745cf9;
+         color: #fff;
+         outline: none;
+         border: 1px solid #745cf9;
+         font-weight: bold;
+         border-radius: 2px
+     }
+     .background .containt button:hover {
+         background-color: #5d47d7;
+         border: 1px solid #5d47d7;
+     }
+     /*end background*/
+     /*start download*/
+     .download{
+         background-color:#f5f5f5 ;
+     }
+     .download .containt{
+         padding: 75px 120px 30px 120px;
+         font-family: 'Raleway', sans-serif;
+     }
+     .download .containt h2{
+         font-weight: bold;
+         font-size: 35px;
+     }
+     .download .containt p {
+         margin: 20px;
+     }
+     .download .containt button{
+         padding: 15px;
+         width: 200px;
+         background-color: #745cf9;
+         color: #fff;
+         outline: none;
+         border: 1px solid #745cf9;
+         font-weight: bold;
+         border-radius: 2px
+     }
+     .download .containt button:hover {
+         background-color: #5d47d7;
+         border: 1px solid #5d47d7;
+     }
+     /*end download*/
+     /*start big-background*/
+     .big-background{
+         background-color:#f5f5f5 ;
+     }
+     .big-background .container .row{
+         background-image: url("../images/photo-1440557653082-e8e186733eeb-1.jpg");
+         height: 800px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         text-align: center; 
+     }
+     /*end big-background*/
+     /*start projects*/
+     .projects{
+         background-color:#000 ;
+     }
+     .projects .containt{
+         padding: 75px 120px 30px 120px;
+         font-family: 'Raleway', sans-serif;
+         color: #fff;
+     }
+     .projects .containt h2{
+         font-weight: bold;
+         font-size: 35px;
+     }
+     .projects .containt p {
+         margin: 20px;
+     }
+     /*end projects*/
+     /*start portfolio*/
+     .portfolio{
+         background-color: #000;
+         text-align: center;
+         position: relative;
+         bottom: -28px;
+     }
+     .portfolio .container .row{
+         margin-bottom: 30px;
+         margin-right: 20px;
+     }
+     .portfolio .container .row .col img{
+         width: 110%;
+         height: 300px;
+     }
+     .portfolio .container .row .col a{
+        color: #fff !important;
+        position: relative !important;
+        top: -40px !important;
+    }
+     .portfolio .container .row .col .overflow{
+         color: #fff;
+         background-color: #000;
+         opacity: 0.5;
+         position: absolute;
+         width: 22%;
+         height: 300px;
+         margin-top: -300px;
+         overflow: hidden;
+         display: none;
+     }
+     .portfolio .container .row .col .overflow p{
+       padding: 50% 0;
+     }
+     /*end portfolio*/
+     /*start slider*/
+     .slider{
+         color: #fff;
+         text-align: center;
+         background-image: url("../images/sb.jpg");
+         height: 500px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         text-align: center;
+         font-family: 'Raleway', sans-serif;
+     }
+     .slider .container .row .slide .carousel-inner .carousel-item {
+         padding: 100px;
+     }
+     .slider .container .row .slide .carousel-inner .carousel-item h2{
+         padding: 20px;
+         font-weight: bold;
+     }
+     .slider .container .row .slide .carousel-inner .carousel-item img{
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+     }
+     .slider .container .row .slide .carousel-inner .carousel-item h5{
+         padding-top: 20px;
+         font-weight: bold;
+     }
+     /*end slider*/
+     /*start clients*/
+     .clients{
+         padding: 100px;
+         font-family: 'Raleway', sans-serif;
+     }
+     .clients h2{
+        font-weight: bold;
+        margin-bottom: 40px;
+     }
+     .clients img{
+         width: 100px;
+         opacity: 0.5;
+      }
+      .clients img:hover{
+         opacity: 1;
+      }
+     /*end clients*/
+     /*start final*/
+     .final{
+         background-color:#f5f5f5 ;
+     }
+     .final .container .row{
+        padding: 100px;
+     }
+     .final .container .row .left h3{
+         font-family: 'Raleway', sans-serif;
+         font-weight: bold;
+         margin-top: 15px;
+      }
+      .final .container .row .right button{
+         padding: 15px;
+         width: 250px;
+         background-color: #745cf9;
+         color: #fff;
+         outline: none;
+         border: 1px solid #745cf9;
+         border-radius: 2px;
+         margin-left: 120px;
+      }
+      .final .container .row .right button:hover{
+         background-color: #5d47d7;
+         border: 1px solid #5d47d7;
+      }
+     /*end final*/
+     /*start footer*/
+     footer{
+         background-color: #000;
+         color: #fff;
+         font-family: 'Raleway', sans-serif;
+         font-weight: bold;
+     }
+     footer .container .row{
+         padding: 100px;
+     }
+     footer .container .row h5{
+         margin-top: 10px;
+     }
+     footer .container .row h5 span:hover{
+         color: #745cf9;
+     }
+     footer .container .row i{
+         font-size: 30px;
+         padding: 5px;
+     }
+     footer .container .row i:hover{
+         color: #745cf9;
+     }
+     /*end footer*/
+     /*start scroll*/
+     .scroll #btn-back-to-top {
+         position: fixed;
+         bottom: 20px;
+         right: 20px;
+         display: none;
+         background-color: #745cf9;
+         border: 1px solid #745cf9;
+        outline: none;
+         border: 2px solid #745cf9;
+         color: #fff;
+       }
+     /*end scroll*/ 
+
